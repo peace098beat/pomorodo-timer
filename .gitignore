@@ -56,3 +56,4 @@ patches/mtime-cache.json
 spec/fixtures/logo.png
 
 *-darwin-x64/
+*.zip

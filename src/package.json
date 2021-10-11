@@ -1,12 +1,17 @@
 {
   "name": "pomodoro-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "strong timer",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["pomorodo"],
+  "keywords": [
+    "pomodoro"
+  ],
   "author": "peace098beat",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
