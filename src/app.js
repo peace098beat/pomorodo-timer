@@ -169,6 +169,12 @@ class TimerApp {
     console.log(this.counter);
 
     if(this.counter <= 0){
+      if(mode == 0){
+        this.mode = 1;
+      }else if(mode == 1){
+        this.mode = 0;
+      }
+
       this.counter = this.intervals[this.mode];
 
       if(mode == 0){
@@ -204,8 +210,8 @@ class TimerApp {
 let timer_app;
 
 function startTimerApp(){
-  timer_app = new TimerApp(25*60, 5*60);
-  // timer_app = new TimerApp(5, 5); // [sec]
+  // timer_app = new TimerApp(25*60, 5*60);
+  timer_app = new TimerApp(5, 50); // [sec]
   timer_app.start();
 }
 
