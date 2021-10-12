@@ -210,8 +210,8 @@ class TimerApp {
 let timer_app;
 
 function startTimerApp(){
-  // timer_app = new TimerApp(25*60, 5*60);
-  timer_app = new TimerApp(5, 50); // [sec]
+  timer_app = new TimerApp(25*60, 5*60);
+  // timer_app = new TimerApp(5, 50); // [sec]
   timer_app.start();
 }
 
